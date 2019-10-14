@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:background="#F7F5F5"
+      android:layout_height="fill_parent">
+
+    <ImageView
+        android:id="@+id/splashscreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:layout_marginTop="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/cook" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Lets Cook"
+        android:textColor="#E70808"
+        android:textSize="36sp"
+        app:fontFamily="sans-serif-condensed-medium" />
+
+</LinearLayout>
