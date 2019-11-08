@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".feedbackk">
+    <EditText
+        android:id="@+id/type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="111dp"
+        android:layout_marginStart="111dp"
+        android:layout_marginTop="55dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Feedback"
+        android:layout_below="@+id/recipename"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="186dp"
+        android:layout_marginStart="186dp"
+        android:layout_marginTop="103dp"
+        android:text="send"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_below="@+id/description"/>
+
+
+
+
+</RelativeLayout>
+
