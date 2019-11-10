@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"></ImageView>
+
+    <Button
+        android:id="@+id/buttonprocess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="46dp"
+        android:text="Analyse">
+
+    </Button>
+<!--    <Button-->
+<!--        android:id="@+id/button"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:onClick="onclick"-->
+<!--        android:text="click">-->
+
+<!--    </Button>-->
+
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_above="@+id/buttonprocess"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+       />
+
+
+</RelativeLayout>
+
+
